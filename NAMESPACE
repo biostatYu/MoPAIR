@@ -1,0 +1,6 @@
+S3method(plot,mopair_fit)
+S3method(print,mopair_fit)
+export(fit_mopair)
+export(fit_mopair_grid)
+export(mopair_example_data)
+export(plot_mopair)

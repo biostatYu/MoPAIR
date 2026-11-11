@@ -1,0 +1,5 @@
+^\.git$
+^\.github$
+^\.gitignore$
+^CITATION\.cff$
+^LICENSE\.md$

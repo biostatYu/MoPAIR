@@ -1,0 +1,22 @@
+Package: MoPAIR
+Type: Package
+Title: Module-Level Paired-Path Association Inference for Related Mediators
+Version: 0.2.0
+Authors@R: c(person("Xinghao", "Yu", role = c("aut", "cre"),
+    email = "yuxinghao1994@suda.edu.cn"),
+    person("MoPAIR Development Team", role = "aut"))
+Description: Constructs outcome-free molecular modules, evaluates member-aligned
+    exposure and outcome path evidence, combines uncorrected divide-aggregate
+    composite-null test statistics using the aggregated Cauchy association test,
+    and applies module-level Benjamini-Hochberg adjustment. Supports continuous,
+    binary, and right-censored survival outcomes, with efficient logistic score
+    tests and Cox proportional hazards models. Includes a fixed-module
+    multiple-exposure interface and synthetic examples.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.2.0)
+Imports: graphics, stats, survival, utils
+Suggests: DACT, covr
+Remotes: zhonghualiu/DACT
+URL: https://github.com/biostatYu/MoPAIR
+BugReports: https://github.com/biostatYu/MoPAIR/issues
